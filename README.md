@@ -31,6 +31,13 @@ Users can register from here
 ![image](https://github.com/user-attachments/assets/9de12ea9-acd6-4629-8f8e-e7fab57ff32c)
 
 
+HOLIDAY PAGE
+
+"This Spring Boot module defines an MVC setup to display holidays categorized as 'Festival' or 'Federal' using JPA, Thymeleaf, and a controller that dynamically filters holiday data based on the URL path variable."
+
+![image](https://github.com/user-attachments/assets/561ec71e-0de9-4a88-b2a5-59b82b6f9652)
+
+
 IF I'M LOGGED IN AS A ADMIN
 
 
@@ -52,7 +59,8 @@ Pagination is implemented using Spring Data's Pageable interface and Page<Contac
 
 Sorting is applied via URL query parameters sortField and sortDir, which are passed into the controller and used in PageRequest.of(pageNum - 1, pageSize, Sort.by(...)) to dynamically sort the table columns (e.g., by name, mobile, subject).
 
-![image](https://github.com/user-attachments/assets/5df80b55-e3e9-47b7-b76d-1b2edaa0fcf4)
+![image](https://github.com/user-attachments/assets/d31d112b-6c9e-4c63-982a-5a8629e17ba0)
+
 
 
 Course tab
